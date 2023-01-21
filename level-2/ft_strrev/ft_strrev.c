@@ -11,7 +11,7 @@ char *ft_strrev(char *str)
 		char temp = str[i];
 		str[i] = str[last_index];
 		str[len] = temp;
-		
+
 		i++;
 		len--;
 	}
